@@ -1,3 +1,4 @@
+
 var nome = "Erik Rossi"
 var idade = 16;
 var idade2 = 10;
@@ -40,4 +41,40 @@ console.log(fruta[1]);
 //console.log(fruta[0].nome);
 //console.log(fruta[0].cor);
 
+/*
+var idade = prompt("Qual sua idade?");
+if (idade > 18){
 
+alert("maior de idade");
+
+}
+
+else {
+    alert("menor de idade");
+};
+
+*/
+
+var count = 0;
+while (count <= 5)
+{
+    console.log(count);
+    count++;
+};
+
+//alert(count);
+
+
+var conta;
+for(conta = 5; conta > 0; conta--){
+
+//alert(conta);
+
+console.log(conta);
+
+};
+
+var d = new Date();
+alert(d);
+//alert(d.getMonth()+1);
+//alert(d.getFullYear());
